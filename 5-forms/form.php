@@ -5,8 +5,8 @@ if(isset($_POST['sumbit'])) {
   $username = $_POST['username'];
   $password = $_POST['password'];
 
+  echo $username;
   echo $password;
-  echo $username;   
 
 }
 
